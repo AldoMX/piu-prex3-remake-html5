@@ -21,3 +21,7 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# CRA creates this file in /src, remove this line when they fix the issue
+# https://github.com/facebook/create-react-app/issues/6560
+/src/react-app-env.d.ts
