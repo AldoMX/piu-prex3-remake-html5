@@ -15,6 +15,10 @@ module.exports = {
   plugins: ['react', '@typescript-eslint', 'prettier'],
   parser: '@typescript-eslint/parser',
   rules: {
+    '@typescript-eslint/explicit-function-return-type': [
+      'warn',
+      { allowExpressions: true },
+    ],
     'prettier/prettier': ['error', { singleQuote: true }],
   },
   settings: {
